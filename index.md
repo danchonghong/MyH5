@@ -1,3 +1,191 @@
-## hhhawdadas
-<a href="http://www.baidu.com">adw</a>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>虚拟仿真实验</title>
+		<link href="虚拟仿真.css"type="text/css"rel="stylesheet" />
+	</head> 
+	<body>
+		<script>
+			function input1(){
+				try{
+					var e=document.getElementById("input-box").value;
+					if(e==""){
+					throw "请输入内容：";
+				}
+			}catch(err){
+				alert(err);
+			}
+			}
+		</script>
+		<script>
+			function input0(){
+				var e=document.getElementById("input-box").value
+				return e;
+			}
+		</script>
+		<div id="no">
+			<div class="toubu">
+				<div id="head"></div>
+					<div class="head1">
+						<ul class="ul">
+							<li class="li"><a href="http://www.baidu.com" class="classA">首页</a></li>
+							<li class="li"><a href="#gywm" class="classA">实验教学项目描述</a></li>
+							<li class="li"><a href="http://www.baidu.com" class="classA">实验教学项目服务团队</a></li>
+							<li class="li"><a href="#gywm" class="classA">网络相关要求</a></li>
+							<li class="li"><a href="http://www.baidu.com" class="classA">项目架构及研发技术</a></li>
+							<li class="li"><a href="#gywm" class="classA">实验教学项目特色</a></li>
+							<li class="li"><a href="http://www.baidu.com" class="classA">持续建设服务计划</a></li>
+							<li class="li"><a href="#gywm" class="classA">项目申报书</a></li>
+							<li class="li1">
+								<form action="http://www.baidu.com" method="get" >
+									<div id="search-box" >
+								   		<input name="" type="text" id="input-box" placeholder="请输入搜索内容"/>
+								    	<input name="" type="submit" value="搜索" class="button" onclick="input1()" />
+									</div>
+								</form>
+							</li>
+						</ul>
+					</div>
+				<div id="menu" align="center">
+					<br /><br />
+				
+				<img src="timg.jpg" class="img1" />
+				<br /><br />
+				<br />
+			
+				
+				<p id="pid1"><b><b>四川轻化工大学</b><br /><b>力的拉伸仿真模拟实验</b></b></p>
+				<div id="divt"><p class="pclass">所属分类：<br/>实验学时：<br >实验操作步数：<br />实验项目负责人：<br />联系电话：<br /> </p></div>
+				</div>
+			</div>
+			<div class="syxm">
+						<div id="bt"><b>实验项目</b></div>
+						<div id="ls"><p class="sybt"><b>力的拉伸实验</b></p>
+							<br />
+							<p class="synr">一键安装部署， 全方位数据安全，智能运维监控、性能高效的大数据基础平台，是整个大数..</p>
+							<div class="img" >
+        						<a href="#">
+									<img src="u=3133043565,116758844&fm=26&gp=0.jpg"width="250px"height="250px" alt="工作图1"/>
+								</a>
+							<p class="text">拉伸实验</p>
+							<ul id="ul">
+								<li class="btn"><button>开始实验</button></li>
+							</ul>
+        					</div>
+        					
+						</div>
+						<div id="nz">
+							<p class="sybt"><b>力的扭转实验</b></p>
+							<br />
+							<p class="synr">SDC Goverm数据治理，基于大数据基础平台，提供元数据管理、质量管理、数据..</p>
+							<!--
+                            	作者：offline
+                            	时间：2020-01-31
+                            	描述：<video width="400" controls="controls" id="menuv">
+								<source src="img/video.mp4" type="video/mp4" ></source>
+							</video>
+							<ul id="ul">
+								<li class="btn1"><a href="http://www.baidu.com" target="_blank" ><button >开始实验</button></a></li>
+							</ul>
+                            -->
+							<div class="img" >
+        						<a href="#">
+									<img src="u=3133043565,116758844&fm=26&gp=0.jpg"width="250px"height="250px" alt="工作图1"/>
+								</a>
+							<p class="text">拉伸实验</p>
+							<ul id="ul">
+								<li class="btn"><button>开始实验</button></li>
+							</ul>
+        					</div>
+						</div>
+						<div id="sdw">
+							<p class="sybt"><b>力的三点弯实验</b></p>
+							<br />
+							<p class="synr">SDC ETL融合数据,基于大数据采集平台提供批量采集,网络爬虫，大数据迁移和实...</p>
+							<div class="img" >
+        						<a href="#">
+									<img src="u=3133043565,116758844&fm=26&gp=0.jpg"width="250px"height="250px" alt="工作图1"/>
+								</a>
+							<p class="text">拉伸实验</p>
+							<ul id="ul">
+								<li class="btn"><button>开始实验</button></li>
+							</ul>
+        					</div>
+						</div>
+						
+					</div>		
+				<!--
+                	作者：offline
+                	时间：2020-01-30
+                	描述：<a href="http://www.baidu.com" target="_blank" id="open" ><button>开始实验</button></a>
+                	
+                	<video width="400" controls="controls" id="menuv1">
+					<source src="img/video.mp4" type="video/mp4" ></source>
+				</video>
+                -->
+				
+				
+			<div id="body">
+				<div id="divx">
+					<a href="#"><img src="u=3133043565,116758844&fm=26&gp=0.jpg"  id="imgx" width="400px"height="300px"/> </a>
+					<p class="textx">2019-11-22坚守初心</p>
+				</div>
+				<div id="xw">
+					<p class="xwbt"><b>新闻中心</b></p>
+					<ul class="ulxw">
+						<li>新闻1</li>
+						<li>新闻1</li>
+						<li>新闻1</li>
+						<li>新闻1</li>
+						<li>新闻1</li>
+						<div class="xwbtn"><button><b>更多新闻</b></button></div>
+						
+					</ul>
+				</div>
+			</div>
+				<div class="bodyimg"></div>
+			<div id="foot">
+				<ul>
+					<li class="li3">持续业务保持<br />相应零延迟 </li>
+					<li class="li2">标准化实施<br />全智能实时监控 </li>
+					<li class="li2">强大的交付能力<br />实现客服价值 </li>
+					<li class="li2">7*12小时服务<br/>实现一对一</li>
+				</ul>
+			</div>
+		<br /><br />
+		<div id="divid">
+			<ul>
+				<li class="di">常见问题&#160;&#160;&#160;&#160;|&#160;&#160;&#160;&#160;</li>
+				<li class="di">热门动态&#160;&#160;&#160;&#160;|&#160;&#160;&#160;&#160;</li>
+				<li class="di">获取支持&#160;&#160;&#160;&#160;|&#160;&#160;&#160;&#160;</li>
+				<li class="di">关于我们</li>
+			</ul>
+		</div>
+		<table  border="0">
+			<tr>
+				<td id="td1"><p>内边距<br /> 内边距<br /> 内边距<br /></p> </td>
+				<td id="td1"><p>内边距<br /> 内边距<br /> 内边距<br /></p> </td>
+				<td id="td1"><p>内边距<br /> 内边距<br /> 内边距<br /></p> </td>
+				<td id="td1"><p>内边距<br /> 内边距<br /> 内边距<br /></p> </td>
+			</tr>
+		</table>
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<div id="div2">CSS阴影 <a name="gywm">关于我们负责人：<br/>成员：</a></div>
+		<div id="div3">外边距 </div>
+		<!--
+        	作者：offline
+        	时间：2020-01-20
+        	描述：盒子
+        -->
+        <br />
+	</body>
+</html>
+
 
