@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link href="demo.css"type="text/css"rel="stylesheet" />
+		<link type="text/css" rel="stylesheet" href="虚拟仿真2.css" />
+		<link type="text/css" rel="stylesheet" href="boot/css/bootstrap.min.css" />
+		<script type="text/javascript" src="jquery-3.4.1.min.js"></script>		
+		<script type="text/javascript" src="boot/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<nav class="navbar navbar-default navbar-inverse">
+				
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://www.suse.edu.cn/">四川轻化工大学</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">首页<span class="sr-only">(current)</span></a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">实验相关<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">实验教学项目描述</a></li>
+            <li><a href="#">实验教学项目特色</a></li>
+            <li><a href="#">项目申报书</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">实验教学项目服务团队</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">持续建设服务计划</a></li>
+          </ul>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">项目技术相关 <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">项目架构及研发技术</a></li>
+            <li><a href="#">网络相关要求</a></li>
+            <li><a href="#">团队成员</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">关于我们</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">搜索</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">换肤</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">登录<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">注册</a></li>
+            <li><a href="#">登陆</a></li>
+            
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+ 			<div class="jumbotron">
+  <h1 id="h1"><b><b>四川轻化工大学</b><br /><b>力的拉伸仿真模拟实验</b></b></h1>
+  <p>拉伸试验是指在承受轴向拉伸载荷下...</p>
+  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  更多信息
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">拉伸实验，扭转实验，三点弯实验详情</h4>
+      </div>
+      <div class="modal-body">
+        拉伸试验是指在承受轴向拉伸载荷下测定材料特性的试验方法。利用拉伸试验得到的数据可以确定材料的弹性极限、伸长率、弹性模量、比例极限、面积缩减量、拉伸强度、屈服点、屈服强度和其它拉伸性能指标。从高温下进行的拉伸试验可以得到蠕变数据。金属拉伸试验的步骤可参见ASTM E-8标准。塑料拉伸试验的方法参见ASTM D-638标准、D-2289标准（高应变率）和D-882标准（薄片材）。ASTM D-2343标准规定了适用于玻璃纤维的拉伸试验方法；ASTM D-897标准中规定了适用于粘结剂的拉伸试验方法；ASTM D-412标准中规定了硬橡胶的拉伸试验方法。
+      </div><div class="modal-body">
+        拉伸试验是指在承受轴向拉伸载荷下测定材料特性的试验方法。利用拉伸试验得到的数据可以确定材料的弹性极限、伸长率、弹性模量、比例极限、面积缩减量、拉伸强度、屈服点、屈服强度和其它拉伸性能指标。从高温下进行的拉伸试验可以得到蠕变数据。金属拉伸试验的步骤可参见ASTM E-8标准。塑料拉伸试验的方法参见ASTM D-638标准、D-2289标准（高应变率）和D-882标准（薄片材）。ASTM D-2343标准规定了适用于玻璃纤维的拉伸试验方法；ASTM D-897标准中规定了适用于粘结剂的拉伸试验方法；ASTM D-412标准中规定了硬橡胶的拉伸试验方法。
+      </div><div class="modal-body">
+        拉伸试验是指在承受轴向拉伸载荷下测定材料特性的试验方法。利用拉伸试验得到的数据可以确定材料的弹性极限、伸长率、弹性模量、比例极限、面积缩减量、拉伸强度、屈服点、屈服强度和其它拉伸性能指标。从高温下进行的拉伸试验可以得到蠕变数据。金属拉伸试验的步骤可参见ASTM E-8标准。塑料拉伸试验的方法参见ASTM D-638标准、D-2289标准（高应变率）和D-882标准（薄片材）。ASTM D-2343标准规定了适用于玻璃纤维的拉伸试验方法；ASTM D-897标准中规定了适用于粘结剂的拉伸试验方法；ASTM D-412标准中规定了硬橡胶的拉伸试验方法。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+	<div id="nr">
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">实验教学</a></li>
+    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">拉伸实验</a></li>
+    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">扭转实验</a></li>
+    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">三点弯实验</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home">
+    					
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          实验简介
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+		三<br/>种<br/>实<br/>验<br/>的<br/>简<br/>介
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          实验目的
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
+      	三<br/>种<br/>实<br/>验<br/>的<br/>目<br/>地
+        </div>
+    </div>
+  </div>
+  
+</div>
+    </div>
+    
+    <div role="tabpanel" class="tab-pane" id="profile">
+    	
+
+<div class="alert alert-warning alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <strong>注意</strong> 查看相关实验要求和步骤。</div>
+<div class="divsy">
+	
+
+<div class="panel panel-default">
+  <div class="panel-heading">实验要求</div>
+  <div class="panel-body">
+    拉伸实验<br/>的要求
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">实验步骤</h3>
+  </div>
+  <div class="panel-body">
+    拉伸实验<br/>的步骤
+  </div>
+</div>
+<a class="btn btn-primary" id="xzbg" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+  下载实验表格
+</a>
+<div class="collapse xz" id="collapseExample">
+  <div class="well">
+    表格1....
+  </div>
+</div>
+</div>
+
+
+<video width="45%" controls="controls" class="menuv"  >
+	<source src="video/樱花樱花想见你防压版_x264_Mux.mp4" type="video/mp4"  ></source>
+</video>
+
+
+
+
+
+    </div>
+    <div role="tabpanel" class="tab-pane" id="messages">
+    	
+<div class="alert alert-warning alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <strong>注意</strong> 查看相关实验要求和步骤。</div>
+<div class="divsy">
+	
+
+<div class="panel panel-default">
+  <div class="panel-heading">实验要求</div>
+  <div class="panel-body">
+    扭转实验<br/>的要求
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">实验步骤</h3>
+  </div>
+  <div class="panel-body">
+    扭转实验<br/>的步骤
+  </div>
+</div>
+<a class="btn btn-primary" id="xzbg" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+  下载实验表格
+</a>
+<div class="collapse xz" id="collapseExample">
+  <div class="well">
+    表格1....
+  </div>
+</div>
+</div>
+
+
+<video width="45%" controls="controls" class="menuv"  >
+	<source src="video/樱花樱花想见你防压版_x264_Mux.mp4" type="video/mp4"  ></source>
+</video>
+
+    </div>
+    <div role="tabpanel" class="tab-pane" id="settings">
+    	
+<div class="alert alert-warning alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <strong>注意</strong> 查看相关实验要求和步骤。</div>
+<div class="divsy">
+	
+
+<div class="panel panel-default">
+  <div class="panel-heading">实验要求</div>
+  <div class="panel-body">
+   三点弯实验<br/>的要求
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">实验步骤</h3>
+  </div>
+  <div class="panel-body">
+    三点弯实验<br/>的步骤
+  </div>
+</div>
+<a class="btn btn-primary" id="xzbg" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+  下载实验表格
+</a>
+<div class="collapse xz" id="collapseExample">
+  <div class="well">
+    表格1....
+  </div>
+</div>
+</div>
+
+
+<video width="45%" controls="controls" class="menuv"  >
+	<source src="video/樱花樱花想见你防压版_x264_Mux.mp4" type="video/mp4"  ></source>
+</video>
+
+    </div>
+  </div>
+
+</div>
+		
+		
+		<div class="container lbt">
+			
+		
+		<div class="box lbtn" id="box">
+    <div class="inner">
+        <!--轮播图-->
+        <ul class="ulcl">
+            <li class="licl"><a href="#"><img src="img/1.jpg" alt=""></a></li>
+            <li class="licl"><a href="#"><img src="img/2.jpg" alt=""></a></li>
+            <li class="licl"><a href="#"><img src="img/3.jpg" alt=""></a></li>
+            <li class="licl"><a href="#"><img src="img/4.jpg" alt=""></a></li>
+            <li class="licl"><a href="#"><img src="img/5.jpg" alt=""></a></li>
+            <li class="licl"><a href="#"><img src="img/5.jpg" alt=""></a></li>
+ 			
+        </ul>
+ 
+        <ol class="bar">
+ 
+        </ol>
+        <!--左右焦点-->
+        <div id="arr">
+            <span id="left">
+                        <
+                    </span>
+            <span id="right">
+                        >
+                    </span>
+        </div>
+ 
+    </div>
+</div>
+
+<div class="list-group xwnr">
+  <p class="list-group-item active">
+    最新消息
+  </p>
+  <a href="#" class="list-group-item">1</a>
+  <a href="#" class="list-group-item">2</a>
+  <a href="#" class="list-group-item">3</a>
+  <a href="#" class="list-group-item">4</a>
+  <a href="#" class="list-group-item">5</a>
+  <a href="#" class="list-group-item">6</a>
+  
+  <a href="#"><button type="button" class="btn btn-info gdnr">更多内容+</button></a>
+</div>
+
+</div>
+
+<div class="container">
+	<div id="box">
+			<div class="box_top">
+				<input type="text" name="input" id="input" value="" />
+				<textarea id="input1"name="username" cols="80"rows="10"placeholder="请输入评论："></textarea>
+				<button id="pbtn" name="submit">发布</button>
+				
+			</div>
+			<ul id="comment_content">
+			</ul>
+		</div>
+		<script>
+			window.onload=function(){
+				//监听按钮
+			function ajax1({method="post",url,data}){
+  		
+  		
+  		var	xhr = new XMLHttpRequest();
+  		if(data){
+  			data=querystring(data);
+  		}
+  		xhr.open(method,url,true);
+  		xhr.setRequestHeader("content-type","application/x-www-form-urlencoded");
+  		xhr.send(data);
+  		xhr.onreadystatechange=function(){
+  			if(xhr.readyState==4){
+  				if(xhr.status==200){
+  					alert(xhr.responseText);
+  				}else{
+						alert('连接错误');
+  				}
+  			}
+  		}
+  	}
+  	function querystring(obj){
+  		var str ="";
+  		for(var attr in obj){
+  			str+= attr+"="+obj[attr]+"&";
+  		}
+  		return str.substring(0,str.length-1);
+  	}
+			function my$(id){
+				return document.getElementById(id)
+			}
+			my$("pbtn").onclick=function(){
+				var content=my$("input1").value;
+				var postbtn=document.getElementById("pbtn")
+  				var input1=document.getElementById("input1")
+  				var input = document.getElementById("input")
+  				alert(input.value)
+  				alert(input1.value)
+  				ajax1({
+	  				methon:"post",
+		  			url:"pl.php",
+		  			data:{
+		  			username:input.value,
+		  			age:input1.value
+	  			}
+	  			})
+				if(content.length==1){
+					alert('asdw1');
+					return;
+				}
+				var newli=document.createElement("li")
+				newli.innerHTML=content+'<a href="javascript:void(0);">删除</a><br/>'
+				my$("comment_content").insertBefore(newli,my$('comment_content').children[0])
+				input1.value=' '
+				var del=document.getElementsByTagName("a")
+				for(var i=0;i<del.length;i++){
+					del[i].onclick=function(){
+						this.parentNode.remove()
+					}
+				}
+			}
+			}
+		</script>
+</div>
+<script>
+    /**
+     *
+     * @param id  传入元素的id
+     * @returns {HTMLElement | null}  返回标签对象，方便获取元素
+     */
+    function my$(id) {
+        return document.getElementById(id);
+    }
+ 
+    //获取各元素，方便操作
+    var box=my$("box")
+    var inner=box.children[0]
+    var ulObj=inner.children[0]
+    var list=ulObj.children
+    var olObj=inner.children[1]
+    var arr=my$("arr")
+    var imgWidth=inner.offsetWidth
+    var right=my$("right")
+    var pic=0
+    var left=document.getElementById('left')
+   	var qwe=10
+   	
+    //根据li个数，创建小按钮
+    for(var i=0;i<list.length;i++){
+        var liObj=document.createElement("li")
+ 
+        olObj.appendChild(liObj)
+        liObj.innerText=(i+1)
+        liObj.setAttribute("index",i)
+ 		liObj.onmousemove=function(){
+ 			qwe=1
+ 			
+ 			for (var j=0;j<olObj.children.length;j++){
+                olObj.children[j].removeAttribute("class")
+           }
+            this.className="current"
+            pic=this.getAttribute("index")
+            animate(ulObj,-pic*imgWidth)
+ 		}
+ 		liObj.onmouseout=function(){
+ 			qwe=10
+ 		}
+        //为按钮注册mouseover事件
+       
+ 
+    }
+    
+ 
+  	left.onclick=function(){
+  		if (pic==0){
+            pic=list.length-1;
+            ulObj.style.left=-pic*imgWidth+"px";
+        }
+        pic--;
+        animate(ulObj,-pic*imgWidth);
+        for (var i = 0; i < olObj.children.length; i++) {
+            olObj.children[i].removeAttribute("class");
+        }
+        //当前的pic索引对应的按钮设置颜色
+        olObj.children[pic].className = "current";
+  		
+  	}
+  	right.onclick=function(){
+  		if (pic == list.length - 1) {
+            //如何从第6个图,跳转到第一个图
+            pic = 0;//先设置pic=0
+            ulObj.style.left = 0 + "px";//把ul的位置还原成开始的默认位置
+        }
+        pic++;//立刻设置pic加1,那么此时用户就会看到第二个图片了
+        animate(ulObj, -pic * imgWidth);//pic从0的值加1之后,pic的值是1,然后ul移动出去一个图片
+        //如果pic==5说明,此时显示第6个图(内容是第一张图片),第一个小按钮有颜色,
+        if (pic == list.length - 1) {
+            //第五个按钮颜色干掉
+            olObj.children[olObj.children.length - 1].className = "";
+            //第一个按钮颜色设置上
+            olObj.children[0].className = "current";
+        } else {
+            //干掉所有的小按钮的背景颜色
+            for (var i = 0; i < olObj.children.length; i++) {
+                olObj.children[i].removeAttribute("class");
+            }
+            olObj.children[pic].className = "current";
+        }
+  	}
+  	
+    //设置ol中第一个li有背景颜色
+    olObj.children[0].className = "current";
+    //克隆一个ul中第一个li,加入到ul中的最后=====克隆
+    ulObj.appendChild(ulObj.children[0].cloneNode(true));
+ 
+    var timeId=setInterval(onmouseclickHandle,4000);
+    //左右焦点实现点击切换图片功能
+    box.οnmοuseοver=function () {
+        arr.style.display="block";
+        clearInterval(timeId);
+    };
+    box.οnmοuseοut=function () {
+        arr.style.display="none";
+        timeId=setInterval(onmouseclickHandle,4000);
+    };
+ 	
+    
+    
+    
+    
+    function onmouseclickHandle() {
+        //如果pic的值是5,恰巧是ul中li的个数-1的值,此时页面显示第六个图片,而用户会认为这是第一个图,
+        //所以,如果用户再次点击按钮,用户应该看到第二个图片
+        if (pic == list.length - 1) {
+            //如何从第6个图,跳转到第一个图
+            pic = 0;//先设置pic=0
+            ulObj.style.left = 0 + "px";//把ul的位置还原成开始的默认位置
+        }
+        pic++;//立刻设置pic加1,那么此时用户就会看到第二个图片了
+        animate(ulObj, -pic * imgWidth);//pic从0的值加1之后,pic的值是1,然后ul移动出去一个图片
+        //如果pic==5说明,此时显示第6个图(内容是第一张图片),第一个小按钮有颜色,
+        if (pic == list.length - 1) {
+            //第五个按钮颜色干掉
+            olObj.children[olObj.children.length - 1].className = "";
+            //第一个按钮颜色设置上
+            olObj.children[0].className = "current";
+        } else {
+            //干掉所有的小按钮的背景颜色
+            for (var i = 0; i < olObj.children.length; i++) {
+                olObj.children[i].removeAttribute("class");
+            }
+            olObj.children[pic].className = "current";
+        }
+    }
+    
+ 
+    //设置任意的一个元素,移动到指定的目标位置
+    function animate(element, target) {
+        clearInterval(element.timeId);
+        //定时器的id值存储到对象的一个属性中
+        element.timeId = setInterval(function () {
+            //获取元素的当前的位置,数字类型
+            var current = element.offsetLeft;
+            //每次移动的距离
+            var step = 10;
+            step = current < target ? step : -step;
+            //当前移动到位置
+            current += step;
+            if (Math.abs(current - target) > Math.abs(step)) {
+                element.style.left = current + "px";
+            } else {
+                //清理定时器
+                clearInterval(element.timeId);
+                //直接到达目标
+                element.style.left = target + "px";
+            }
+        }, qwe);
+    }
+</script>
+		
+		
+
+
+
+
+		</div>
+	</body>
+</html>
+<!--
+	作者：offline
+	时间：2020-02-15
+	描述：<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Collapsible Group Item #1
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Collapsible Group Item #2
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Collapsible Group Item #3
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+</div>
+-->
